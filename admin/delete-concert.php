@@ -1,0 +1,29 @@
+<?php 
+        
+    include('constants.php');
+  
+    
+    if(isset($_GET['c_id']))
+    {
+        
+        $c_id = $_GET['c_id'];
+     
+        $sql = "DELETE FROM tbl_concert WHERE c_id = $c_id " ;
+        $res = mysqli_query($conn, $sql);
+        if($res==true)
+        {
+            $_SESSION['delete'] = "<div class='success'>Concert Deleted Successfully </div>";
+            header('location: manage-concert2.php');
+        }
+        else
+        {
+            //Failed to Delete List
+            $_SESSION['delete_fail'] = "<div class='error'>Failed to Delete List.</div>";
+            header('location: manage-concert2.php');
+        }
+    }
+  
+    
+    
+    
+?>

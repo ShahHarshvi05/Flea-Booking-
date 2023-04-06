@@ -1,0 +1,50 @@
+<?php include('constants.php');
+?>
+
+<!-- Menu Section Starts -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Admin Panel</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>SUNDOWN FEST</h1>
+        </div>
+        <ul>
+            <li><img src="dashboard (2).png" alt="">&nbsp; <span>Dashboard</span> </li>
+            <a href="manage-admin.php"><li><img src="reading-book (1).png" alt="">&nbsp;<span>Admin</span> </li></a>
+            <a href="manage-concert.php"><li><img src="teacher2.png" alt="">&nbsp;<span>Concert</span> </li>
+            <a href="manage-stall.php"><li><img src="school.png" alt="">&nbsp;<span>Stall</span> </li>
+            <a href="manage-ticket.php"><li><img src="payment.png" alt="">&nbsp;<span>Ticket</span> </li>
+            <a href="manage-admin.php"><li><img src="help-web-button.png" alt="">&nbsp; <span>Payment</span></li>
+            <a href="manage-admin.php"><li><img src="settings.png" alt="">&nbsp;<span>Others</span> </li>
+        </ul>
+    </div>
+		    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    
+                    <div class="img-case">
+                        <img src="user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+		</body>
